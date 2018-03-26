@@ -5,7 +5,7 @@
 
 Usage::
 
-    >>> client = Client("account_reference", "api_key")
+    >>> client = Client("https://test.metaname.net/api/1.1", "account_reference", "api_key")
     >>> client.domain_names()
     >>> client.dns_zone("example.com")
     >>> client.create_dns_record("example.com",
